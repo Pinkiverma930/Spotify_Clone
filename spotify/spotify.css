@@ -1,0 +1,242 @@
+﻿*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #121212;
+    font-family:sans-serif,'Sitka Subheading'
+}
+.leftnav 
+{
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    padding: 24px;
+    background-color: #000000 ;
+}
+.leftnav .logo
+{
+    height:40px;
+}
+.leftnav .logo img
+{
+    width:120px;
+   
+}
+.leftnav .nav
+{
+    margin-top:80px
+}
+.leftnav .nav span
+{
+    margin-right:12px;
+}
+.leftnav .nav ul {
+       
+    margin-left:-100px;
+    list-style-type: none;
+    
+ }
+.leftnav .nav ul li
+{
+    padding:10px 10px;
+    color:white; 
+}
+.leftnav ul li a
+{
+        text-decoration: none;
+        padding: 15px;
+        color: #b3b3b3;
+        font-size:large;
+ }
+.left .nav ul li .fa
+{
+    font-size:20px;
+    padding-right:20px;
+  
+}
+.leftnav ul li a:hover,
+.leftnav ul li a:active,
+.leftnav ul li a:focus
+{
+    color: #ffffff;
+}
+
+.leftnav .nav ul li a:active .fa,
+{
+    color: #b3b3b3;
+}
+.leftnav .nav ul li a:hover .fa,
+.leftnav .nav ul li a:focus .fa {
+    color: #b3b3b3;
+}
+.main-container {
+    margin-left: 21vw;
+    margin-top: 10px;
+    height: 30px;
+}
+.topnav
+{
+    display:flex;
+    background-color:#000000;
+    justify-content:space-between;
+}
+.topnav .arrow
+{
+    color:#7a7a7a;
+    cursor:not-allowed;
+    width: 34px;
+    height:34px;
+    border-radius: 100%;
+    font-size:18px;
+    border:0px;
+    background-color:#090909;
+    margin-left:70px;
+}
+.topnav .right ul 
+{
+    display:flex;
+    left:400px;
+   
+}
+.topnav .right ul li 
+{
+    list-style-type: none;
+    padding: 12px;
+    
+}
+.topnav .right ul li a
+{
+   cursor:pointer;
+    flex-direction:column;
+    text-decoration:none;
+    color:#b3b3b3;
+    font-size:18px;
+   
+}
+ .topnav .right ul li a:hover
+    {
+        color:white;
+   }
+    .divider {
+        color: white;
+        height: 50%;
+    }
+  .topnav .right #btn .login
+   {
+      float:right;
+       background-color:white;
+       border-radius :50px;
+       color:black;
+       height:5vh;
+       width:5vw;
+       cursor:pointer;
+       margin-right:15px;
+       margin-top:-10px;
+   }
+  .spotify-playlist 
+  {
+     margin-left:380px;
+     margin-top:60px;
+  }
+  .spotify-playlist h2
+  {
+      color: #ffffff;
+      font-size: 22px;
+      margin-bottom:20px;
+  }
+  .spotify-playlist .list
+  {
+      display:flex;
+      gap: 20px;
+      overflow:hidden;
+  }
+  .spotify-playlist .list .item 
+  {
+      min-width: 140px;
+      max-height: 200px;
+      width: 160px;
+      padding: 15px;
+      background-color: #181818;
+      border-radius:6px;
+      cursor:pointer;
+      transition: all ease 0.4s;
+  }
+  .spotify-playlist .list .item:hover
+  {
+      background-color:#252525;
+  }
+  .spotify-playlist .list .item img
+  {
+      width: 100%;
+      height:100px;
+      border-radius:6px;
+      margin-bottom:10px;
+  }
+  .spotify-playlist .list .item .play
+
+{
+      position:relative;
+  }
+.spotify-playlist .list .item .play .fa
+{
+    position:absolute;
+    right:10px;
+    top: -60px;
+    padding:18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0s;
+}
+.spotify-playlist .list .item h4,p
+{
+    color:white;
+}
+.spotify-playlist .list .item:hover .play .fa
+{
+    opacity:1;
+    margin-top:100px;
+    transform:translateY(-10px);
+}
+#singer {
+    color: white;
+    font-size: 22px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+.favourite {
+    
+    display: flex;
+    margin-left: 380px;
+    margin-top: -80px;
+    width: 100vw;
+   height: 130vh;
+    
+}
+
+.favourite .circle {
+        margin-top: 70px;
+        width: 100px;
+        height: 150px;
+        
+        margin-left:40px;
+        margin-right:40px;
+       // align-content:space-between;
+        //display:inline-block;
+ }
+ .favourite .circle .item1 img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        flex-direction: row;
+        cursor: pointer;
+       justify-content: flex-start;
+        align-items: center;
+ }
+ 
